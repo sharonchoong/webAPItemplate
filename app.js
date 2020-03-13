@@ -17,6 +17,10 @@ app.use('/', routesInstrument);
 var routesCategory = require('./instrumentApi/routes/categoryRoutes'); 
 app.use('/', routesCategory);
 
+//authentication
+//var auth = require('./authenticate.js'); 
+//auth(app); 
+
 app.listen(port);
 
 console.log('RESTful API server started on: ' + port);
