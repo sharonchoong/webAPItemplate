@@ -4,7 +4,7 @@ This is a web API template built on Express and Node.js for SQL Server or Azure 
 ## Database structure
 This template assumes the following MSSQL database design:
 - Tables
-	- "instruments" with columns "id" INT, "shortName" VARCHAR, "categoryId" INT, "investmentRegionId" INT, "description" VARCHAR
+	- "instruments" with columns "id" INT, "shortName" VARCHAR, "categoryId" INT, "description" VARCHAR
 	- "categories" with columns "id" INT, "categoryName" VARCHAR, "typeName" VARCHAR, "subTypeName" VARCHAR
 - Views
 	- "instrumentDetails" with the following select statement:
