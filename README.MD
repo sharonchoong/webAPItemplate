@@ -19,6 +19,6 @@ This template assumes the following MSSQL database design:
 	- e.g. "createCategoryStoredProcedure", "deleteCategoryStoredProcedure", "" and "updateInstrumentStoredProcedure"
 
 ## Usage
-Please update your database connection in database/connect.js.  Run `npm install` after navigating to the folder in the console to install all packages, then `npm run start` to test-run the API.  By default, it will run on port 3000.
+Please update your database connection in database/connect.js.  Run `npm install` after navigating to the folder in the console to install all packages, then `npm run start` to test-run the API.  By default, it will run on port 3000.  Paste http://localhost:3000/docs to the browser to see the Swagger documentation.
 
 Note: Azure SQL database authentication (at authentication/authenticate.js) has not been tested yet.
